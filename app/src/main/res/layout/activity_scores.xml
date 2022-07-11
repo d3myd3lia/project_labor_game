@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".scores">
+
+    <TextView
+        android:id="@+id/nevTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="left"
+        android:text="Balázska"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Eredmények"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/nevTv"/>
+
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:padding="10dp"
+                android:text="1. Játék:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/g1CS1"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g1CS2"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g1CS3"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g1CS4"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g1CS5"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:padding="10dp"
+                android:text="2. Játék:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/g2CS1"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g2CS2"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g2CS3"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g2CS4"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g2CS5"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:padding="10dp"
+                android:text="3. Játék:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <!--<TextView
+                android:id="@+id/game3C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="0"
+                android:textSize="17dp" />-->
+            <ImageView
+                android:id="@+id/g3CS1"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g3CS2"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g3CS3"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g3CS4"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g3CS5"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:padding="10dp"
+                android:text="4. Játék:"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/g4CS1"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g4CS2"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g4CS3"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g4CS4"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/g4CS5"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/csillag"
+                android:visibility="invisible" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/VisszaBtn"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#FF9800"
+        android:layout_marginTop="300dp"
+        android:text="Vissza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".game3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:text="3. Játék"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:text="Feladat:\nKét különböző számot láthatsz. Feladatod, hogy megmond melyik a nagyobb szám.\nÍrd az üres mezőbe a helyes relációs jelet!"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/szam1Tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:text="0"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:id="@+id/muveletTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:background="@color/white"
+                android:hint="?"
+                android:text=""
+                android:textColor="#007FEC"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/szam2Tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="2dp"
+                android:text="0"
+                android:textSize="40sp"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/balrakacsaBtn"
+                android:layout_width="120dp"
+                android:layout_height="75dp"
+                android:layout_margin="1dp"
+                android:backgroundTint="#EA6301"
+                android:text="&gt;"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/egyenloBtn"
+                android:layout_width="120dp"
+                android:layout_height="75dp"
+                android:layout_margin="1dp"
+                android:backgroundTint="#EA6301"
+                android:text="="
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/jobbrakacsaBtn"
+                android:layout_width="120dp"
+                android:layout_height="75dp"
+                android:layout_margin="1dp"
+                android:backgroundTint="#EA6301"
+                android:text="&lt;"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bC"
+                android:layout_width="120dp"
+                android:layout_height="75dp"
+                android:layout_column="0"
+                android:layout_margin="1dp"
+                android:backgroundTint="#EA2101"
+                android:text="C"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/bOK"
+                android:layout_width="120dp"
+                android:layout_height="75dp"
+                android:layout_column="2"
+                android:layout_margin="1dp"
+                android:backgroundTint="#EA2101"
+                android:text="OK"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/kilepesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:text="KILÉPÉS"
+        android:backgroundTint="#FF9800"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="0" />
+</LinearLayout>

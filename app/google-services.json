@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "396751326442",
+    "project_id": "thegame-4f9d4",
+    "storage_bucket": "thegame-4f9d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396751326442:android:3d6119842d62b1df659b93",
+        "android_client_info": {
+          "package_name": "com.example.thegame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396751326442-pn2bd5l2j04ucfvmdvv3d8r85h0vu96t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpEQCrbP0Th2Z_sxAjt0Owi9SkOjQTS9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396751326442-pn2bd5l2j04ucfvmdvv3d8r85h0vu96t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
